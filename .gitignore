@@ -1,10 +1,12 @@
 # Dataset (too large for GitHub)
 PlantVillage/
 
-# Model files (large binary files)
-*.keras
-*.h5
+# Training history (not needed for deployment)
 *.pkl
+
+# Large model files (keep best_agrovision_model.keras for deployment)
+agrovision_model_92plus.keras
+plant_disease_model_98_9.keras
 
 # Python cache
 __pycache__/

@@ -8,9 +8,6 @@ import json
 import plotly.express as px
 import pandas as pd
 from datetime import datetime
-import os
-import signal
-import time
 
 # --- 1. CONFIGURATION ---
 st.set_page_config(
@@ -115,11 +112,11 @@ with st.sidebar:
     st.markdown("---")
     st.caption("System Controls")
     
-    # THE KILL SWITCH
-    if st.button("🛑 Stop App", type="primary"):
-        st.warning("Shutting down system...")
-        time.sleep(1)
-        os.kill(os.getpid(), signal.SIGTERM)
+    # Clear history button (works on Streamlit Cloud)
+    if st.button("🗑️ Clear History", type="primary"):
+        st.session_state['history'] = []
+        st.session_state['last_file'] = None
+        st.rerun()
 
 # --- 6. MAIN HEADER ---
 col1, col2 = st.columns([1, 15])
