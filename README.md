@@ -249,61 +249,6 @@ Projects with screenshots perform significantly better on:
 * Internship applications
 
 ---
-
-# Recommended Images To Add
-
-## 1.Streamlit UI Screenshot
-
-Add a screenshot of your application interface.
-
-Example:
-
-```markdown
-![App UI](screenshots/app_ui.png)
-```
-
----
-
-## 2️. Prediction Example
-
-Show:
-
-* Uploaded leaf image
-* Predicted disease
-* Treatment output
-
-Example:
-
-```markdown
-![Prediction Demo](screenshots/prediction_demo.png)
-```
-
----
-
-## 3️.Confusion Matrix
-
-```markdown
-![Confusion Matrix](confusion_matrix.png)
-```
-
----
-
-## 4️. Accuracy Curve
-
-```markdown
-![Accuracy Curve](accuracy_curve.png)
-```
-
----
-
-## 5️. Loss Curve
-
-```markdown
-![Loss Curve](loss_curve.png)
-```
-
----
-
 # Recommended Repository Structure
 
 ```bash
@@ -396,15 +341,3 @@ Forking the project
 Sharing it on LinkedIn
 
 ---
-
-# LinkedIn Posting Tip
-
-When posting this project on LinkedIn:
-
-✅ Add screenshots
-✅ Mention real-world impact
-✅ Explain the AI model briefly
-✅ Add GitHub repository link
-✅ Mention technologies used
-
-Projects with visual demonstrations get significantly more engagement.
